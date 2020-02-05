@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="85515" started-at="2020-02-03T15:05:16Z" finished-at="2020-02-03T15:06:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="85515" started-at="2020-02-03T15:05:16Z" finished-at="2020-02-03T15:06:42Z">
+      <class name="test.Testcustomer">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:test.Testcustomer@2a70a3d8]" name="openapp" is-config="true" duration-ms="17048" started-at="2020-02-03T15:05:17Z" finished-at="2020-02-03T15:05:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="cus()[pri:0, instance:test.Testcustomer@2a70a3d8]" name="cus" duration-ms="23519" started-at="2020-02-03T15:05:34Z" finished-at="2020-02-03T15:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cus -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:test.Testcustomer@2a70a3d8]" name="closeapp" is-config="true" duration-ms="0" started-at="2020-02-03T15:05:57Z" finished-at="2020-02-03T15:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- test.Testcustomer -->
+      <class name="test.Testwork">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:test.Testwork@289d1c02]" name="openapp" is-config="true" duration-ms="14244" started-at="2020-02-03T15:05:57Z" finished-at="2020-02-03T15:06:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="workon()[pri:0, instance:test.Testwork@289d1c02]" name="workon" duration-ms="30660" started-at="2020-02-03T15:06:11Z" finished-at="2020-02-03T15:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workon -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:test.Testwork@289d1c02]" name="closeapp" is-config="true" duration-ms="1" started-at="2020-02-03T15:06:42Z" finished-at="2020-02-03T15:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- test.Testwork -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
